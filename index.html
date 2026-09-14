@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DisRoyal3 | Official Hub & Schedule</title>
+    <style>
+        :root {
+            --primary-blue: #1E40AF;
+            --accent-blue: #3B82F6;
+            --bg-dark: #0F172A;
+            --card-bg: #1E293B;
+            --text-light: #F8FAFC;
+            --text-muted: #94A3B8;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 650px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .avatar {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            border: 3px solid var(--accent-blue);
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+            margin-bottom: 12px;
+            object-fit: cover;
+        }
+
+        .title {
+            font-size: 2rem;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-top: 6px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--primary-blue);
+            color: #fff;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 20px;
+            margin-top: 10px;
+            text-transform: uppercase;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 14px;
+            color: var(--accent-blue);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .links-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .link-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--card-bg);
+            color: var(--text-light);
+            text-decoration: none;
+            padding: 16px;
+            border-radius: 10px;
+            font-weight: 700;
+            border: 1px solid var(--primary-blue);
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .link-btn:hover {
+            background-color: var(--primary-blue);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(30, 64, 175, 0.5);
+        }
+
+        .schedule-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .schedule-item:last-child {
+            border-bottom: none;
+        }
+
+        .time {
+            font-weight: 700;
+            color: var(--accent-blue);
+            font-size: 0.9rem;
+        }
+
+        .event-name {
+            font-size: 0.95rem;
+        }
+
+        .merch-banner {
+            background: linear-gradient(135deg, var(--primary-blue), #0F172A);
+            border: 1px solid var(--accent-blue);
+            text-align: center;
+        }
+
+        .merch-tag {
+            font-size: 1.2rem;
+            font-weight: 800;
+            margin-bottom: 6px;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Profile Header -->
+    <div class="header">
+        <img src="https://via.placeholder.com/150/1E40AF/FFFFFF?text=DisRoyal3" alt="DisRoyal3" class="avatar">
+        <h1 class="title">DisRoyal3</h1>
+        <p class="subtitle">Late-Night FPS, Extraction Specialist & Creator</p>
+        <span class="badge">👑 Building The Kingdom</span>
+    </div>
+
+    <!-- Social Links -->
+    <div class="links-grid">
+        <a href="https://tiktok.com/@disroyal3" target="_blank" class="link-btn">📱 Follow on TikTok (850+ Strong)</a>
+        <a href="https://twitch.tv/disroyal3" target="_blank" class="link-btn">🔴 Watch Live on Twitch</a>
+        <a href="https://discord.gg/zgYRpmDTD" target="_blank" class="link-btn">💬 Join The Kingdom Discord</a>
+    </div>
+
+    <!-- Stream Schedule Card -->
+    <div class="card">
+        <div class="card-title">🗓️ Live Stream Schedule</div>
+        <div class="schedule-item">
+            <span class="event-name">🎮 Late-Night Gaming Shift</span>
+            <span class="time">10:30 PM PT (Mon–Fri)</span>
+        </div>
+        <div class="schedule-item">
+            <span class="event-name">📹 IRL Stream</span>
+            <span class="time">Tuesdays & Saturdays</span>
+        </div>
+        <div class="schedule-item">
+            <span class="event-name">🏈 Rams Discord Watch Party</span>
+            <span class="time">Game Days</span>
+        </div>
+    </div>
+
+    <!-- 1K Follower Merch Teaser -->
+    <div class="card merch-banner">
+        <div class="merch-tag">👕 KINGDOM MERCH UNLOCKS AT 1,000 FOLLOWERS</div>
+        <p class="subtitle" style="color: #E2E8F0;">Official "LOCKED IN" Merch drops when we hit 1,000 TikTok followers. Push the follow button above to unlock the store!</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2026 DisRoyal3. All rights reserved. Built for The Kingdom. 👑
+    </div>
+</div>
+
+</body>
+</html>
